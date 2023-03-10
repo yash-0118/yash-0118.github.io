@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="style_home.css">
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <!-- <script src="cart.js"></script> -->
+    <script src="script2.js"></script>
+    <!-- <script src="cart.js"></script> -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Grocery Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> Grocery </a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#feature">Features</a>
+            <a href="products.html">Products</a>
+            <a href="#review">Reviews</a>
+            <a href="#aboutus">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <a href="cart.html#cart-total">
+                <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            </a>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+            <input type="email" placeholder="Enter Email-id" class="box">
+            <input type="password" placeholder="Enter Password" class="box">
+            <p>Forget Password <a href="#">Click here</a></p>
+            <p>Don't have Account <a href="#">Sign Up</a></p>
+            <input type="submit" value="Login" class="btn">
+        </form>
+
+    </header>
+    <section class=" products" id="product">
+        <h2 id="per">Personal Care</h2>
+        <div class="box-container">
+            <div class="box card" data-id="P101" data-name="Body Lotion" data-price="262.50"
+                data-image="pcare/lotion.png">
+                <img src="pcare/lotion.png" alt="" width="180px">
+                <h1>Body Lotion</h1>
+                <div class="price">262.50/-(400 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P102" data-name="Conditioner" data-price="90"
+                data-image="pcare/conditioner.png">
+                <img src="pcare/conditioner.png" width="180px" alt="">
+                <h1>Conditioner</h1>
+                <div class="price">90/-(75 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P103" data-name="Lip Balm" data-price="142" data-image="pcare/lipbalm.png">
+                <img src="pcare/lipbalm.png" width="180px" alt="">
+                <h1>Lip Balm</h1>
+                <div class="price">142/-(12 gm)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P104" data-name="Ear Buds" data-price="25" data-image="pcare/earbuds.png">
+                <img src="pcare/earbuds.png" width="180px" alt="">
+                <h1>Cotton Ear Buds</h1>
+                <div class="price">25/-(200 pcs.)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P105" data-name="Mouthwash" data-price="151"
+                data-image="pcare/mouthwash.png">
+                <img src="pcare/mouthwash.png" width="180px" alt="">
+                <h1>Mouthwash</h1>
+                <div class="price">151/-(500 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P105" data-name="Mouthwash" data-price="151"
+                data-image="pcare/mouthwash.png">
+                <img src="pcare/mouthwash.png" width="180px" alt="">
+                <h1>Mouthwash</h1>
+                <div class="price">151/-(500 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P105" data-name="Mouthwash" data-price="151"
+                data-image="pcare/mouthwash.png">
+                <img src="pcare/mouthwash.png" width="180px" alt="">
+                <h1>Mouthwash</h1>
+                <div class="price">151/-(500 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+            <div class="box card" data-id="P105" data-name="Mouthwash" data-price="151"
+                data-image="pcare/mouthwash.png">
+                <img src="pcare/mouthwash.png" width="180px" alt="">
+                <h1>Mouthwash</h1>
+                <div class="price">151/-(500 ml)</div>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <button class="btn1">Add to cart</button>.
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
