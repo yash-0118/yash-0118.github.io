@@ -1,0 +1,50 @@
+:root {
+    --orange: #ff7800;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --border: .2rem solid rgba(0, 0, 0, .1);
+    --outline: .1rem solid rgba(0, 0, 0, .1);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section .box-container .box{
+    border: 2px solid;
+    width: 40%;
+    /* display: flex; */
+    margin-left: 5px;
+    border-radius: .5rem;
+    padding: 10px;
+    margin: 30px 0;
+    box-shadow: var(--box-shadow);
+}
+section .box-container .box:hover{
+    background-color: bisque;
+    box-shadow: 50px 50px 50px 50px solid rgb(60, 0, 255);
+}
+section .box-container .box .identity{
+    display: flex;
+    font-size: 2rem;
+    justify-content: flex-start;
+
+}
+section .box-container .box .identity img{
+    margin-right: 50px;
+}
+#line{
+    margin-top: 7px;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 2px;
+    background-color: black;
+}
+section .box-container .box .content{
+    font-size: 2rem;
+}
